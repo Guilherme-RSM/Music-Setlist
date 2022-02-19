@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <!--IMPORTANDO FONTE DO GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+        
+        <!--IMPORTANDO KIT DE ÍCONES DO FONTAWESOME-->
+        <script src="https://kit.fontawesome.com/0fcbc8e701.js" crossorigin="anonymous"></script>
+        <title>Repertório - Music Setlist</title>
+        <link rel="shortcut icon" href="img" />
+
+    </head>
+
+    <body>
+        <header>
+
+            <!--MENU DE NAVEGAÇÃO-->
+            <h1>Repertório <br> Music Setlist</h1>
+            <nav id="menu">
+                <ul>
+                    <a href="#"><li>Tela inicial</li></a>
+                    <a href="#"><li>Repertório Atual</li></a>
+                    <a href="#"><li>Músicas</li></a>
+                    <a href="#"><li>RelatórioS</li></a>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!--CAMPO DE BUSCAS-->
+<div class="funcionalidades">
+        <div id="search-box">
+            <i class="fas fa-search fa-lg" title="Fazer uma Pesquisa"></i>  
+            <input type="text" id="busca" placeholder="Buscar..."> 
+        </div>
+
+        <!--BOTÕES E FUNCIONALIDADES-->
+        
+        <button class="add-music"><i class="fas fa-plus-circle fa-lg" title="Adicionar Música"></i>Adicionar Música</button>
+        <button><i class="fas fa-ruler-vertical fa-lg"></i>Adicionar Espaço</button>
+        <button class="save"><i class="fas fa-save fa-lg" title="Salvar Alterações"></i>Salvar</button>
+        <button><i class="fas fa-cogs fa-lg" title="Configurações"></i>Configurações</button> 
+    </div>
+
+        <!--TABELA COM OS DADOSS DO REPERTÓRIO-->
+        <article class="container">
+            <section>
+                <table class="table-repertorio">
+                    <thead>
+                        <tr id="repertorio-info">
+                            <th>N°</th>
+                            <th>Atalho</th>
+                            <th>Música</th>
+                            <th>Style</th>
+                            <th>Tempo</th>
+                            <th>Tom</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      
+                       
+                        <!--MÚSICAS DE 1 A 3-->
+                        <tr>
+                            <td>1</td>
+                            <td rowspan="3" class="atalho">1A</td>
+                            <td>Facas</td>
+                            <td rowspan="3">Acustico</td>
+                            <td rowspan="3">82</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Só Pensando em Você</td>
+                            <td class="tom">Gm</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Quem de nós dois</td>
+                            <td class="tom">Bb</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+
+                        <!--MÚSICAS DE 4 A 6-->
+                        <tr>
+                            <td>4</td>
+                            <td rowspan="3" class="atalho">2A</td>
+                            <td>Três Batidas</td>
+                            <td rowspan="3">Pegada Tierry</td>
+                            <td rowspan="1">125</td>
+                            <td class="tom">Ab</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td>Tudo que vai volta</td>
+                            <td rowspan="2">133</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr>
+                            <td>6</td>
+                            <td>Rita</td>
+                            <td class="tom">B</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 7 A  9-->
+                        <tr>
+                            <td>7</td>
+                            <td rowspan="3" class="atalho">3A</td>
+                            <td>Estrelinha</td>
+                            <td rowspan="3">Guarânia</td>
+                            <td rowspan="2">98</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr>
+                            <td>8</td>
+                            <td>Blusa Vermelha</td>
+                            <td class="tom">D</td>
+                        </tr>
+
+                        <tr>
+                            <td>9</td>
+                            <td>Ainda Ontem Chorei</td>
+                            <td>108</td>
+                            <td class="tom">C</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 10 A 12-->
+                        <tr>
+                            <td>10</td>
+                            <td rowspan="3" class="atalho">4A</td>
+                            <td>Biga Feia</td>
+                            <td rowspan="3">Sertanejo H&J</td>
+                            <td rowspan="3">85</td>
+                            <td class="tom">Abm</td>
+                        </tr>
+
+                        <tr>
+                            <td>11</td>
+                            <td>Barzinho Aleatório</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr>
+                            <td>12</td>
+                            <td>Segunda Taça</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 13 A 15-->
+                        <tr>
+                            <td>13</td>
+                            <td rowspan="3" class="atalho">5A</td>
+                            <td>Quando te Encontrei</td>
+                            <td rowspan="3">Pagode Lento</td>
+                            <td rowspan="2">70</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr>
+                            <td>14</td>
+                            <td>Que se chama Amor</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr>
+                            <td>15</td>
+                            <td>Tesouro ou Pirata</td>
+                            <td>74</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 16 A 18-->
+                        
+                        <tr>
+                            <td>16</td>
+                            <td rowspan="3" class="atalho">6A</td>
+                            <td >Ficha Limpa</td>
+                            <td rowspan="3">Bachata Gustavo Lima</td>
+                            <td rowspan="3">137</td>
+                            <td class="tom">Ab</td>
+                        </tr>
+                        
+                        <tr>
+                        <td>17</td>
+                        <td>Espetinho</td>
+                        <td class="tom">C</td>
+                        </tr>
+
+                        <tr>
+                            <td>18</td>
+                            <td>Mi Lu</td>
+                            <td class="tom">Am</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 19 A 21-->
+                        <tr>
+                            <td>19</td>
+                            <td rowspan="3" class="atalho">7A</td>
+                            <td>Convite de Casamento</td>
+                            <td rowspan="3">Power Balad</td>
+                            <td rowspan="3">74</td>
+                            <td class="tom">C</td>
+                        </tr>
+
+                        <tr>
+                            <td>20</td>
+                            <td>Nem dormindo eu consigo te esquecer</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr>
+                            <td>21</td>
+                            <td>A Carta</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+
+                         <!--MÚSICAS DE 22 A 24-->
+                         <tr>
+                            <td>22</td>
+                            <td rowspan="3" class="atalho">8A</td>
+                            <td>Já te Superei</td>
+                            <td rowspan="3">Pisadinha</td>
+                            <td rowspan="3">85</td>
+                            <td class="tom">Bb</td>
+                        </tr>
+
+                        <tr>
+                            <td>23</td>
+                            <td>Amor da Despedida</td>
+                            <td class="tom">Ebm</td>
+                        </tr>
+
+                        <tr>
+                            <td>24</td>
+                            <td>Esquema Preferido</td>
+                            <td class="tom">Dm</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 25 A 27-->
+                        <tr>
+                            <td>25</td>
+                            <td rowspan="3" class="atalho">1B</td>
+                            <td>Bicho Bom</td>
+                            <td rowspan="3">Vanera do Sul</td>
+                            <td rowspan="3">107</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr>
+                            <td>26</td>
+                            <td>Ficando com Ela</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr>
+                            <td>27</td>
+                            <td>Credo em Cruz Ave Maria</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+            
+                        <!--MÚSICAS DE 28 A 30-->
+                        <tr>
+                            <td>28</td>
+                            <td rowspan="3" class="atalho">2B</td>
+                            <td>Expectativa e Realidade</td>
+                            <td rowspan="3">Arrocha M&K</td>
+                            <td rowspan="3">127</td>
+                            <td class="tom">F#</td>
+                        </tr>
+
+                        <tr>
+                            <td>29</td>
+                            <td>Se ta Preparada</td>
+                            <td class="tom">D</td>
+                        </tr>
+
+                        <tr>
+                            <td>30</td>
+                            <td>Sextou com S de Saudade</td>
+                            <td class="tom">B</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 31 A 33-->
+                        <tr>
+                            <td>31</td>
+                            <td rowspan="3" class="atalho">3B</td>
+                            <td>Nem de Graça</td>
+                            <td rowspan="3">Pagode PXT</td>
+                            <td rowspan="2">95</td>
+                            <td class="tom">Bb</td>
+                        </tr>
+
+                        <tr>
+                            <td>32</td>
+                            <td>Saudade Arregaça</td>
+                            <td class="tom">Bb</td>
+                        </tr>
+                
+                        <tr>
+                            <td>33</td>
+                            <td>Ser Feliz</td>
+                            <td>93</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 34 A 36-->
+                        <tr>
+                            <td>34</td>
+                            <td rowspan="3" class="atalho">7A</td>
+                            <td>Nossa História</td>
+                            <td rowspan="3">Violão e Voz</td>
+                            <td rowspan="3">-</td>
+                            <td class="tom">B</td>
+                        </tr>
+
+                        <tr>
+                            <td>35</td>
+                            <td>Evidências</td>
+                            <td class="tom">D</td>
+                        </tr>
+
+                        <tr>
+                            <td>36</td>
+                            <td>-</td>
+                            <td class="tom">-</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 37 A 39-->
+                        <tr>
+                            <td>37</td>
+                            <td rowspan="3" class="atalho">5D</td>
+                            <td>A Maior Saudade</td>
+                            <td rowspan="3">Power Rock</td>
+                            <td>86</td>
+                            <td class="tom">B</td>
+                        </tr>
+
+                        <tr>
+                            <td>38</td>
+                            <td>Troca</td>
+                            <td>95</td>
+                            <td class="tom">C#</td>
+                        </tr>
+
+                        <tr>
+                            <td>39</td>
+                            <td>Eu  Ligo pra Você</td>
+                            <td>112</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 40 A 42-->
+                        <tr>
+                            <td>40</td>
+                            <td rowspan="3" class="atalho">4B</td>
+                            <td>Xote dos Milagres</td>
+                            <td rowspan="3">Xote</td>
+                            <td rowspan="3">158</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr>
+                            <td>41</td>
+                            <td>Colo de Menina</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr>
+                            <td>42</td>
+                            <td>Esperando da Janela</td>
+                            <td class="tom">E</td>
+                            
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 43 A 45-->
+                        <tr>
+                            <td>43</td>
+                            <td rowspan="3" class="atalho">5B</td>
+                            <td>Você beberia ou não beberia</td>
+                            <td rowspan="3">Piseiro</td>
+                            <td rowspan="2">75</td>
+                            <td class="tom">Cm</td>
+                        </tr>
+
+                        <tr>
+                            <td>44</td>
+                            <td>Se for Amor</td>
+                            <td class="tom">Em</td>
+                        </tr>
+
+                        <tr>
+                            <td>45</td>
+                            <td>Ele é ele eu sou Eu</td>
+                            <td>80</td>
+                            <td class="tom">C#m</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 46 A 48-->
+                        <tr>
+                            <td>46</td>
+                            <td rowspan="3" class="atalho">6B</td>
+                            <td>Atrasadinha</td>
+                            <td rowspan="3">Samba</td>
+                            <td rowspan="2">82</td>
+                            <td class="tom">Em</td>
+                        </tr>
+
+                        <tr>
+                            <td>47</td>
+                            <td>Cerveja de Garrafa</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr>
+                            <td>48</td>
+                            <td>Você virou Paixão</td>
+                            <td>85</td>
+                            <td class="tom">C</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 49 A 51-->
+                        <tr>
+                            <td>49</td>
+                            <td rowspan="3" class="atalho">7B</td>
+                            <td>Fruto Especial</td>
+                            <td rowspan="3">Bolero</td>
+                            <td rowspan="3">108</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr>
+                            <td>50</td>
+                            <td>Na hora do Adeus</td>
+                            <td class="tom">Am</td>
+                        </tr>
+
+                        <tr>
+                            <td>51</td>
+                            <td>Dama de Vermelho</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 52 A 54-->
+                        <tr>
+                            <td>52</td>
+                            <td rowspan="3" class="atalho">8B</td>
+                            <td>Alô Ambev</td>
+                            <td rowspan="3">Arrocha Atual</td>
+                            <td rowspan="3">135</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr>
+                            <td>53</td>
+                            <td>Volta por Baixo</td>
+                            <td class="tom">Bb</td>
+                        </tr>
+
+                        <tr>
+                            <td>54</td>
+                            <td>Vamos tomar Uma</td>
+                            <td class="tom">F#m</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 55 A 57-->
+                        <tr>
+                            <td>55</td>
+                            <td rowspan="3" class="atalho">1C</td>
+                            <td>Por um minuto</td>
+                            <td rowspan="3">90' Rock Ballad</td>
+                            <td rowspan="3">78</td>
+                            <td class="tom">F</td>
+                        </tr>
+
+                        <tr>
+                            <td>56</td>
+                            <td>Inevitável</td>
+                            <td class="tom">C</td>
+                        </tr>
+
+                        <tr>
+                            <td>57</td>
+                            <td>Degrau da Escada</td>
+                            <td class="tom">C</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 58 A 60-->
+                        <tr>
+                            <td>58</td>
+                            <td rowspan="3" class="atalho">2C</td>
+                            <td>Senta Danada</td>
+                            <td rowspan="3">Pisadinha</td>
+                            <td rowspan="3">85</td>
+                            <td class="tom">Em</td>
+                        </tr>
+
+                        <tr>
+                            <td>59</td>
+                            <td>Rocheda</td>
+                            <td class="tom">F#m</td>
+                        </tr>
+
+                        <tr>
+                            <td>60</td>
+                            <td>Zero Saudade</td>
+                            <td class="tom">Am</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 61 A 63-->
+                        <tr>
+                            <td>61</td>
+                            <td rowspan="3" class="atalho">4C</td>
+                            <td>Leão Domado</td>
+                            <td rowspan="3">Vanerão</td>
+                            <td rowspan="3">88</td>
+                            <td class="tom">F#m</td>
+                        </tr>
+
+                        <tr>
+                            <td>62</td>
+                            <td>Muleca</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr>
+                            <td>63</td>
+                            <td>Vamos dar as Mãos 123</td>
+                            <td class="tom">D</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 64 A 66-->
+                        <tr>
+                            <td>64</td>
+                            <td rowspan="3" class="atalho">5C</td>
+                            <td>Cheia de Manias</td>
+                            <td rowspan="3">Samba e Pagode</td>
+                            <td rowspan="2">95</td>
+                            <td class="tom">Am</td>
+                        </tr>
+
+                        <tr>
+                            <td>65</td>
+                            <td>Mineirinho</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr>
+                            <td>66</td>
+                            <td>Fricote</td>
+                            <td>99</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 67 A 69-->
+                        <tr>
+                            <td>67</td>
+                            <td rowspan="3" class="atalho">6C</td>
+                            <td>Fio de Cabelo</td>
+                            <td rowspan="3">Guarânia</td>
+                            <td rowspan>98</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr>
+                            <td>68</td>
+                            <td>Boate Azul</td>
+                            <td>102</td>
+                            <td class="tom">Cm</td>
+                        </tr>
+
+                        <tr>
+                            <td>69</td>
+                            <td>Saudade de minha Terra</td>
+                            <td>110</td>
+                            <td class="tom">C</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 70 A 72-->
+                        <tr>
+                            <td>70</td>
+                            <td rowspan="3" class="atalho">7C</td>
+                            <td>Chão de Giz</td>
+                            <td rowspan="3">Zé Ramalho</td>
+                            <td rowspan="3">-</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr>
+                            <td>71</td>
+                            <td>Sinônimos</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <td>72</td>
+                        <td>-</td>
+                        <td class="tom">-</td>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 73 A 75-->
+                        <tr>
+                            <td>73</td>
+                            <td rowspan="3" class="atalho">8C</td>
+                            <td>Foi Você que não quis</td>
+                            <td rowspan="3">Sertanejo Acustico</td>
+                            <td rowspan="2">109</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr>
+                            <td>74</td>
+                            <td>Vontade Dividida</td>
+                            <td class="tom"t>G</td>
+                        </tr>
+
+                        <tr>
+                            <td>74</td>
+                            <td>De igual pra Igual</td>
+                            <td>107</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 76 A 78-->
+                        <tr>
+                            <td>76</td>
+                            <td rowspan="3" class="atalho">1D</td>
+                            <td>Balança Brasil</td>
+                            <td rowspan="3">Axé</td>
+                            <td>93</td>
+                            <td class="tom">C</td>
+                        </tr>
+
+                        <tr>
+                            <td>77</td>
+                            <td>Eva</td>
+                            <td>-</td>
+                            <td class="tom">C</td>
+                        </tr>
+
+                        <tr>
+                            <td>78</td>
+                            <td>Ta no jeito de Olhar</td>
+                            <td>-</td>
+                            <td class="tom">E</td>
+                        </tr>
+
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 79 A 81-->
+                        <tr>
+                            <td>79</td>
+                            <td rowspan="3" class="atalho">2B</td>
+                            <td>Beijou Meia Cidade</td>
+                            <td rowspan="3">Arrocha M&K</td>
+                            <td rowspan="2">120</td>
+                            <td class="tom">F#</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>80</td>
+                            <td>Lance Individual</td>
+                            <td class="tom">F</td>
+                        </tr>
+
+                        <tr>
+                            <td>81</td>
+                            <td>Eu sei Cor</td>
+                            <td>125</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 82 A 84-->
+                        <tr>
+                            <td>82</td>
+                            <td rowspan="3" class="atalho">3D</td>
+                            <td>Eu deixaria tudo</td>
+                            <td rowspan="3">Sertanejo Anos 90'</td>
+                            <td rowspan="2">80</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr>
+                            <td>83</td>
+                            <td>Pense em mim</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr>
+                            <td>84</td>
+                            <td>Pra mudar minha Vida</td>
+                            <td>82</td>
+                            <td class="tom">D</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 85 A 87-->
+                        <tr>
+                            <td>85</td>
+                            <td rowspan="3" class="atalho">4D</td>
+                            <td>O Brasil ta Cheio de Mulher</td>
+                            <td rowspan="3">Forró</td>
+                            <td rowspan="3">105</td>
+                            <td class="tom">G</td>
+                        </tr>
+
+                        <tr>
+                            <td>86</td>
+                            <td>Abelha</td>
+                            <td class="tom">A</td>
+                        </tr>
+
+                        <tr>
+                            <td>87</td>
+                            <td>Gostosona</td>
+                            <td class="tom">F</td>
+                        </tr>
+                        
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                        <!--MÚSICAS DE 88 A 90-->
+                        <tr>
+                            <td>88</td>
+                            <td rowspan="3" class="atalho">2D</td>
+                            <td>Como é doce o Beijo</td>
+                            <td rowspan="3">Funk Melody</td>
+                            <td>126</td>
+                            <td class="tom">D</td>
+                        </tr>
+
+                        <tr>
+                            <td>89</td>
+                            <td>Só Love só Love</td>
+                            <td>-</td>
+                            <td class="tom">-</td>
+                        </tr>
+
+                        <tr>
+                            <td>90</td>
+                            <td>Glamurosa</td>
+                            <td>-</td>
+                            <td class="tom">-</td>
+                        </tr>
+
+                        <tr class="espacamento">
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+
+                        
+                    </tbody>
+                    
+
+
+                </table>
+                    
+            </section>
+        </article>
+
+    </body>
+</html>

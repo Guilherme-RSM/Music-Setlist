@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+background-color:#dadada;}
+
+h1 {
+    font-size:5em;
+    text-align:center;
+    color:white;
+    background-color:rgb(73, 70, 70);
+    background-image:url("../img/psrs670.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;    
+    margin-bottom:20px;
+    padding:100px;
+    text-shadow: -2px -2px 3px rgb(48, 46, 46);
+    box-shadow: -5px 10px 7px -8px rgba(0,0,0,0.75);
+}
+   
+
+/*BOTÕES E FUNCIONALIDADES*/
+.funcionalidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2%;
+}
+
+
+
+.funcionalidades button, i {
+    padding: 0 10px 0 10px ;
+    border:none;
+    background:none;
+    color:#383838;
+    cursor:pointer;
+    }
+
+.add-music button:hover{
+    color:crimson;
+}   
+
+
+
+
+#search-box input, i {
+    border-radius:10px;
+    text-align: center;
+    margin-right: 5px;
+    }
+
+
+/*==MENU DE NAVEGAÇÃO==*/
+#menu {
+    display:flex;
+    flex-direction:row;
+}
+
+#menu li, ul, a {
+    width:100%;
+    display: inline;
+    margin:1%;
+    text-align:center;
+    cursor:pointer;
+    list-style:none;
+    text-decoration:none;
+    color:black;
+    font-weight:300;
+    text-transform:uppercase;
+    display:none;
+    }
+
+    a:hover{
+        color:chartreuse;
+    }
+
+    /*ESTILIZAÇÃO DA TABELA DO REPERTÓRIO*/
+
+    .table-repertorio {
+        width:100%;
+        align-items:center;
+        justify-content: center;
+        text-align:center;
+    }
+    .table-repertorio th, tr, td {
+        border:1px solid rgba(0, 0, 0, 0.192);
+        padding:10px;
+
+    }
+
+    .table-repertorio th {
+        font-size:1.5em;
+    }
+
+
+
+    #repertorio-info {
+    pointer-events: none;
+    user-select:none;
+
+    }
+
+    .espacamento {
+        pointer-events: none;
+        user-select:none;
+    }
+
+    /*EFEITO HOVER PARA DESTACAR A TR SELECIONADA*/
+    .table-repertorio tr:hover,  .tom:hover {
+     background:#9aa7f7; 
+
+
+
+     color:#fff;
+     transition:0.3s;
+
+
+    }
+
+
+   
+    .tom {
+        font-size:1.5em;
+        font-weight:600;
+
+    }
+    .atalho {
+        font-size: 2em;
+        font-weight: 900;
+        font-family: arial;
+
+        
+
+    }
+
+    .espacamento {
+        background-color:#383838;
+        color:#383838;
+    }
+
